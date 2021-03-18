@@ -1,0 +1,19 @@
+/* debugger */
+.container {
+    height: 100vh;
+    background-color: aqua;
+}
+
+
+
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
