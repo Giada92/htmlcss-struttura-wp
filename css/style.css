@@ -1,15 +1,37 @@
 /* debugger */
-.container {
-    height: 100vh;
-    background-color: aqua;
-}
-
 header {
     background-color: violet;
 }
 
 .nav {
     background-color: rgb(206, 206, 43);
+}
+
+main {
+    height: 500px;
+    background-color: rgb(37, 37, 206);
+}
+
+.section-top {
+    height: 60px;
+    background-color: lightblue;
+}
+.aside-sx {
+    height: 400px;
+    background-color: lightblue;
+}
+.section-middle {
+    height: 400px;
+    background-color: lightblue;
+}
+.aside-dx {
+    height: 400px;
+    background-color: lightblue;
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(100, 9, 100);
 }
 /* /debugger */
 
@@ -25,6 +47,12 @@ header {
     margin: auto;
 }
 
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Header */
 header {
     height: 80px;
@@ -35,4 +63,30 @@ header {
 .nav {
     height: 300px;
     margin-bottom: 20px; 
+}
+
+/* Main */
+.section-top {
+    margin-bottom: 20px;
+}
+.aside-sx {
+    float: left;
+    width: 24%;    
+    margin-bottom: 20px;
+}
+.section-middle {
+    float: left;
+    width: 50%;  
+    margin: 0 1%;  
+    margin-bottom: 20px;
+}
+.aside-dx {
+    float: left;
+    width: 24%;    
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    margin: 10px 0 20px;    
 }
