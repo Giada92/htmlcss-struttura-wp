@@ -4,7 +4,14 @@
     background-color: aqua;
 }
 
+header {
+    background-color: violet;
+}
 
+.nav {
+    background-color: rgb(206, 206, 43);
+}
+/* /debugger */
 
 /* common */
 * {
@@ -16,4 +23,16 @@
 .container {
     width: 70%;
     margin: auto;
+}
+
+/* Header */
+header {
+    height: 80px;
+    margin: 20px 0; 
+}
+
+/* Sezione div */
+.nav {
+    height: 300px;
+    margin-bottom: 20px; 
 }
